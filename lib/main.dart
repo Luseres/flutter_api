@@ -10,10 +10,10 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Job Portal',
+      title: 'Cat Portal',
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Job Portal'),
+          title: Text('Cat Portal'),
         ),
         body: Center(child: CatListView()),
       ),
